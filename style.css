@@ -1,7 +1,19 @@
-*{
+body{
     background-color: black;
     color: white;
-    justify-content: center;
+    margin: 0px auto;
+}
+@font-face {
+    font-family: "ftrk";
+    src: url(./assets/fonts/futurak.ttf);
+}
+@font-face {
+    font-family: "apercu";
+    src: url(./assets/fonts/aperculight.otf);
+}
+@font-face {
+    font-family: "butlerbold";
+    src: url(./assets/fonts/butlerbold.otf);
 }
 img{
     width: 100%;
@@ -61,14 +73,28 @@ img{
     height: 410px;
 }
 /* Cards */
+.brandsection{
+
+    align-items: center;
+}
+.grt{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
 
 .tem{
     width: 240px;
     height: 200px;
     display: inline-block;
-    justify-content: center;
-    text-align: center;
-    margin: 0rem 3rem 0rem 0rem;
+    margin-left: 100px;
+    /* justify-content: center; */
+    /* text-align: center; */
     
 }
 .tem img{
@@ -89,12 +115,61 @@ img{
     font-size: 14px;
     line-height: 50px;
     color: #FFFFFF;
+    background-color: black;
     margin: auto;
     margin-top: 24px;
 }
 .card{
     justify-content: center;
+    align-items: center;
+}
+.franchise{
+    align-items: center;
+    padding: 70px;
+}
+.cnt{
+    font-family: sans-serif poppins ;
+    font-size: 16px;
+    color: white;
+    display: block; 
+    padding-left: 25px;  
+}
+.cnt h2,p{
     text-align: center;
+}
+.cnt h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.cnt h2 span{
+    font-size: 52px;
+    font-family: 'ftrk';
+    margin: 0px auto;
+}
+.cnt p{
+    font-family: "apercu";
+}
+.frenadd{
     display: flex;
-    padding-left: 100rem;
+    margin-left: 150px;
+}
+.frenpic{
+    width: 570px;
+    height: 300px;
+    background-color: lightblue;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.frenpic>img{
+    width: 100%;
+    height: 100%;
+}
+.frensn{
+    width: 570px;
+    height: 300px;
+    display: inline-block;
+}
+.futurak{
+    font-family: "ftrk";
 }
