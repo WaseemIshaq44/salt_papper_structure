@@ -269,7 +269,7 @@ small{
 }
 .comingsoon{
     padding: 60px 0px 38px;
-    background-color: #000000;
+    background-color: rgba(19, 16, 16, 0.822);
 }
 .comingsooncard{
     width: 265px;
