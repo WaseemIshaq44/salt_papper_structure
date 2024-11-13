@@ -15,6 +15,9 @@ body{
     font-family: "butlerbold";
     src: url(./assets/fonts/butlerbold.otf);
 }
+body{
+    margin-top: 90px;
+}
 img{
     width: 100%;
     height: 75px;
@@ -42,8 +45,12 @@ img{
     margin: 0px 0px 0px 100px;
 }
 .topline{
+    width: 100%;
+    background-color: #000000;
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 2px;
 }
 .oo{
     width: 150px;
